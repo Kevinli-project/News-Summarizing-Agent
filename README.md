@@ -112,3 +112,28 @@ Once you’re in, just start chatting. For example:
 
 - say "Tell me today's news?" to get daily news presentation
 - say "Tell me more about this XXX article? " to have chatbot summarize the article for you
+
+
+
+## To Host Locally: Environment Setup
+To run this project locally, you’ll need to set up a few API keys in addition to the code.
+
+### Required API Keys
+
+Create a `.env` file in the project root and add the following:
+OPENAI_API_KEY=your_openai_api_key_here
+NEWS_API_KEY=your_news_api_key_here
+BRAVE_API_KEY=your_brave_api_key_here
+
+### What Each Key Is Used For
+
+- **OPENAI_API_KEY**  
+  Used to call the LLMs that power the Router, Presenter, QA, and Evaluator agents.
+
+- **NEWS_API_KEY**  
+  Used to fetch current news articles across categories such as Top Headlines, Business, Technology, and Canada.
+
+- **BRAVE_API_KEY**  
+  Used by the QA agent to perform internet searches and gather additional context for follow-up questions.
+
+
