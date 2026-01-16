@@ -115,15 +115,16 @@ Once you’re in, just start chatting. For example:
 
 
 
-## To Host Locally: Environment Setup
+
+## Host Locally: Environment Setup
 To run this project locally, you’ll need to set up a few API keys in addition to the code.
 
 ### Required API Keys
 
 Create a `.env` file in the project root and add the following:
-OPENAI_API_KEY=your_openai_api_key_here
-NEWS_API_KEY=your_news_api_key_here
-BRAVE_API_KEY=your_brave_api_key_here
+- OPENAI_API_KEY=your_openai_api_key_here
+- NEWS_API_KEY=your_news_api_key_here
+- BRAVE_API_KEY=your_brave_api_key_here
 
 ### What Each Key Is Used For
 
