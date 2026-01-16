@@ -1,7 +1,20 @@
 # News-Summarizer-Agent
-AI summarizing daily news for busy people
 
 <img width="1184" height="864" alt="image" src="https://github.com/user-attachments/assets/e50e2baf-92d9-4f43-957e-2c8b100ca4e9" />
+
+## What This Project Does
+
+This is an AI-powered daily news summarizer for busy people.
+
+It reads news across categories like **Top Headlines, Business, Technology, and Canada**, then:
+- Summarizes articles based on your interests
+- Keeps information neutral and high-level
+- Explains **What Happened**, **Why This Matters**, and **How It Relates to Us**
+- Lets you ask follow-up questions
+- Links directly to original sources if you want to dive deeper
+
+The goal is simple: understand what’s happening without spending all day reading the news.
+
 
 <img width="2048" height="909" alt="image" src="https://github.com/user-attachments/assets/d4a0331a-8752-4b07-ab97-451dd6990daf" />
 
