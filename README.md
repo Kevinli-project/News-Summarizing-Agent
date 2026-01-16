@@ -100,3 +100,15 @@ This separation of responsibilities keeps the system fast, modular and specializ
 - A focused, source-backed explanation
 - Clear reasoning without unnecessary detail
 - Direct links to referenced articles
+
+
+## 🚀 Try It Out
+
+You can try the chatbot live on **Hugging Face Spaces** — no setup required:
+
+👉 **Live Demo:** https://huggingface.co/spaces/Kevinli0802/News_Summarizing_Agent
+
+Once you’re in, just start chatting. For example:
+
+- say "Tell me today's news?" to get daily news presentation
+- say "Tell me more about this XXX article? " to have chatbot summarize the article for you
