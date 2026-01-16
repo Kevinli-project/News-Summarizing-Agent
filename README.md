@@ -16,7 +16,43 @@ It reads news across categories like **Top Headlines, Business, Technology, and 
 The goal is simple: understand what’s happening without spending all day reading the news.
 
 
+##  How It Works
+
+This project uses a multi-agent LLM pipeline to turn raw news into clean summaries.
+
 <img width="2048" height="909" alt="image" src="https://github.com/user-attachments/assets/d4a0331a-8752-4b07-ab97-451dd6990daf" />
+*Figure: High-level architecture of the multi-agent LLM pipeline. User input is routed through a Router LLM to specialized agents for presentation, question answering, and evaluation before producing the final output.*
+
+
+
+1. **Router LLM**  
+   Every user input first goes through a Router LLM, which determines what kind of task is being requested (e.g. news presentation vs. a follow-up question) and routes it to the appropriate agent.
+
+
+2. **Presenter LLM**  
+   For news presentation, the request is sent to the Presenter LLM.  
+   It focuses on:
+   - Reading and aggregating news
+   - Extracting what is important
+   - Presenting the information in a clear, high-level format  
+   
+   
+3. **QA LLM**  
+   If the user is interested in a particular article, the Router sends it to the QA LLM.  
+   This agent can:
+   - Visit original articles
+   - Search the internet for additional context
+   - Generate detailed, source-backed answers
+
+
+4. **Evaluator LLM**  
+   The Evaluator LLM reviews the QA LLM’s decisions, to make sure QA LLM’s response is evidence based.
+
+5. **Final Output**  
+   The refined response is sent back to the user, along with source links for transparency and further reading.
+
+This separation of responsibilities keeps the system fast, modular and specialized, and easy to extend.
+
 
 <img width="2328" height="984" alt="image" src="https://github.com/user-attachments/assets/e3cfd2d3-368a-41c7-823e-b7005c17aef0" />
 
