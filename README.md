@@ -54,11 +54,47 @@ This project uses a multi-agent LLM pipeline to turn raw news into clean summari
 This separation of responsibilities keeps the system fast, modular and specialized, and easy to extend.
 
 
+## Example Usage
+
+### 1) Get Daily News Presentation
+
+**User input:**
+
 <img width="2328" height="984" alt="image" src="https://github.com/user-attachments/assets/e3cfd2d3-368a-41c7-823e-b7005c17aef0" />
 
 <img width="1858" height="772" alt="image" src="https://github.com/user-attachments/assets/a0f400f2-130f-4f67-bed5-08149741c988" />
 
 
+**What happens behind the scenes:**
+- The **Router LLM** classifies this as a news summary request
+- The request is routed to the **Presenter LLM**
+- The Presenter reads and aggregates news across selected categories
+
+**Output:**
+- A clean, high-level daily news briefing
+- Published date and source links for each article
+- Optional images for visual context
+
+---
+
+### 2) Ask a Follow-Up Question
+
+**User input:**
+
 <img width="2170" height="1090" alt="image" src="https://github.com/user-attachments/assets/e85c5efc-54ee-48f3-aab6-55f4bf097293" />
 
 <img width="2048" height="916" alt="image" src="https://github.com/user-attachments/assets/417212c4-c115-4844-a429-c8fa6e71e468" />
+
+**What happens behind the scenes:**
+- The **Router LLM** detects a follow-up question
+- The request is sent to the **QA LLM**
+- The QA agent:
+  - Visits original articles
+  - Searches the internet for additional context
+- The **Evaluator LLM** reviews the QA LLM's action for clarity and relevance
+- The refined response is returned to the user with sources
+
+**Output:**
+- A focused, source-backed explanation
+- Clear reasoning without unnecessary detail
+- Direct links to referenced articles
