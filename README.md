@@ -116,25 +116,19 @@ Once you’re in, just start chatting. For example:
 
 
 
-## Host Locally: Environment Setup
-To run this project locally, you’ll need to set up a few API keys in addition to the code.
+## Future Improvements
 
-### Required API Keys
+This project is actively evolving. Some areas I plan to improve in the future include:
 
-Create a `.env` file in the project root and add the following:
-- OPENAI_API_KEY=your_openai_api_key_here
-- NEWS_API_KEY=your_news_api_key_here
-- BRAVE_API_KEY=your_brave_api_key_here
+- **Asynchronous article retrieval**  
+  Improve the internet article fetch and reading process by moving from a sequential pipeline to asynchronous Python. This will significantly reduce search time and allow the system to pull from a wider range of sources.
 
-### What Each Key Is Used For
+- **Richer presentation and summaries**  
+  Experiment with more engaging presentation formats and make the summary sections slightly more detailed, while still keeping the high-level, time-saving focus.
 
-- **OPENAI_API_KEY**  
-  Used to call the LLMs that power the Router, Presenter, QA, and Evaluator agents.
+- **User-customizable news categories**  
+  Allow users to fully customize which news categories and topics they are interested in. This is a larger feature.
 
-- **NEWS_API_KEY**  
-  Used to fetch current news articles across categories such as Top Headlines, Business, Technology, and Canada.
-
-- **BRAVE_API_KEY**  
-  Used by the QA agent to perform internet searches and gather additional context for follow-up questions.
+These improvements aim to make the system faster, more flexible, and more personalized over time.
 
 
