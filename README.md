@@ -65,6 +65,7 @@ This separation of responsibilities keeps the system fast, modular and specializ
 ---
 
 **What happens behind the scenes:**
+> This section explains how the system routes, fetches, and presents news internally.
 <img width="1858" height="772" alt="image" src="https://github.com/user-attachments/assets/a0f400f2-130f-4f67-bed5-08149741c988" />
 
 
@@ -87,6 +88,7 @@ This separation of responsibilities keeps the system fast, modular and specializ
 ---
 
 **What happens behind the scenes:**
+> This section describes how the QA stage performs targeted internet searches, and enforces policy checks before the response is released.
 <img width="2048" height="916" alt="image" src="https://github.com/user-attachments/assets/417212c4-c115-4844-a429-c8fa6e71e468" />
 
 
