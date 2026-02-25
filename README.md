@@ -2,6 +2,25 @@
 
 <img width="1184" height="864" alt="image" src="https://github.com/user-attachments/assets/e50e2baf-92d9-4f43-957e-2c8b100ca4e9" />
 
+
+## Project Status — Version 3 (older version)
+
+You are currently viewing **Version 3** (the older version) of this AI News Project.
+
+A major upgrade — **Version 4** — has already been rolled out, though code has not been commited yet. (I will commit it soon!)
+
+If you’d like to experience Version 4 right now, you can access it here:
+
+- 🌐 Personal Website:  
+  https://kevinli-project.github.io/my-digital-portfolio/#/
+
+- ☁️ AWS CloudFront Deployment:  
+  https://dvabg4443rdrf.cloudfront.net/
+
+Version 4 represents a substantial architectural upgrade — stay tuned for the official repository update.
+
+All below are version 3 descriptions.
+
 ## What This Project Does
 
 This is an AI-powered daily news summarizer for busy people.
