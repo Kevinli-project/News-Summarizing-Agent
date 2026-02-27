@@ -1,0 +1,1 @@
+arn:aws:apprunner:us-east-1:975049984940:service/newsfeed-api/8d5180ce4fd5484c9a4b73a7fe9b4ea3

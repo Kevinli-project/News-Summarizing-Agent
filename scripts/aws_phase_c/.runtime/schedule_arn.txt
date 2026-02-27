@@ -1,0 +1,1 @@
+arn:aws:scheduler:us-east-1:975049984940:schedule/default/newsfeed-prewarm-7am

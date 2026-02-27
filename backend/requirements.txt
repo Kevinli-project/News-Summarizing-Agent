@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sse-starlette
+openai
+python-dotenv
+requests
+aiohttp
+beautifulsoup4
+pydantic>=2.11

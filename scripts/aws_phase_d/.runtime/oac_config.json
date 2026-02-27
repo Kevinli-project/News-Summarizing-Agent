@@ -1,0 +1,7 @@
+{
+  "Name": "newsfeed-s3-oac-975049984940",
+  "Description": "OAC for private S3 access via CloudFront (newsfeed-frontend-975049984940-us-east-1)",
+  "SigningProtocol": "sigv4",
+  "SigningBehavior": "always",
+  "OriginAccessControlOriginType": "s3"
+}
