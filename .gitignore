@@ -28,6 +28,10 @@ htmlcov/
 .eggs/
 *.egg-info/
 pip-wheel-metadata/
+dist/
+build/
+*.manifest
+*.spec
 
 # Virtual environments
 .venv/
@@ -41,7 +45,6 @@ ENV/
 node_modules/
 .next/
 out/
-build/
 coverage/
 *.tsbuildinfo
 next-env.d.ts
