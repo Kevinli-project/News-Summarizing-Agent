@@ -334,8 +334,6 @@ def chat(message: str, history: list) -> str:
                      "3）`发布时间：...`\n"
                      "4）`来源：...`\n"
                      "5）图片Markdown行\n"
-                     "绝对不要把“发布时间：”或“来源：”和“摘要：”写在同一行。\n"
-                     "输出前请自检，若不符合则先改写再输出。"
                  )}
             ],
             stream=True

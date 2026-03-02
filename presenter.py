@@ -311,8 +311,6 @@ def chat(message: str, history: list) -> str:
                      "3) `Published: ...`\n"
                      "4) `Source: ...`\n"
                      "5) image markdown line\n"
-                     "Never put `Published:` or `Source:` on the same line as `Summary:`.\n"
-                     "Before finalizing, self-check and rewrite any block that violates this."
                  )}
             ],
             stream=True
