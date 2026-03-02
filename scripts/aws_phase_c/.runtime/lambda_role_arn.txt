@@ -1,1 +1,0 @@
-arn:aws:iam::975049984940:role/NewsfeedPrewarmLambdaExecutionRole

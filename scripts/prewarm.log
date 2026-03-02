@@ -1,6 +1,0 @@
-[2026-02-17T19:34:07-0500] Prewarm scheduled in 5 minutes
-[2026-02-17T19:39:07-0500] Running prewarm at http://localhost:8000
-[2026-02-17T19:39:07-0500] Prewarming cache at http://localhost:8000
-200 en
-200 zh
-[2026-02-17T19:39:55-0500] Prewarm done
