@@ -32,6 +32,13 @@ So I built it.
 
 ---
 
+## Architecture
+
+<p align="center">
+  <img src="DiagramFlow.PNG" width="750">
+</p>
+
+
 ## What It Does
 
 Every day, this agent reads news across six categories — Top Headlines, Business, Technology, AI, Canada, and China — and turns them into clean news cards, each with a short briefing. Just the essentials.<br>
