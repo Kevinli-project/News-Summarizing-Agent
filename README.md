@@ -35,7 +35,7 @@ So I built it.
 ## Architecture
 
 <p align="center">
-  <img src="DiagramFlow.PNG" width="750">
+  <img src="images/DiagramFlow.PNG" width="750">
 </p>
 
 
