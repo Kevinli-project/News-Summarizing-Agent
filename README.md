@@ -1,5 +1,6 @@
 # News Summarizer Agent
 
+![example](images/example.jpg)
 ## The Problem I had
 
 Somewhere along the way, I became "the AI guy."<br>
