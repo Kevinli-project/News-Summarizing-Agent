@@ -1,7 +1,7 @@
 # News Summarizer Agent
 
 <p align="center">
-  <img src="images/Hero.jpg" width="400">
+  <img src="images/Hero.jpg" width="750">
 </p>
 
 ## The Problem I had
