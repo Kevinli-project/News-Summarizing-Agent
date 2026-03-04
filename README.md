@@ -1,8 +1,9 @@
 # News Summarizer Agent
 
 <p align="center">
-  <img src="images/example.jpg" width="700">
+  <img src="images/example.jpg" width="400">
 </p>
+
 ## The Problem I had
 
 Somewhere along the way, I became "the AI guy."<br>
