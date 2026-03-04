@@ -1,6 +1,8 @@
 # News Summarizer Agent
 
-![example](images/example.jpg)
+<p align="center">
+  <img src="images/example.jpg" width="700">
+</p>
 ## The Problem I had
 
 Somewhere along the way, I became "the AI guy."<br>
